@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E488EBCE17D1D809008B5C37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E488EBCD17D1D809008B5C37 /* UIKit.framework */; };
+		E488EBD017D1D809008B5C37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E488EBCF17D1D809008B5C37 /* Foundation.framework */; };
+		E488EBD217D1D809008B5C37 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E488EBD117D1D809008B5C37 /* CoreGraphics.framework */; };
+		E488EBD817D1D809008B5C37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E488EBD617D1D809008B5C37 /* InfoPlist.strings */; };
+		E488EBDA17D1D809008B5C37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E488EBD917D1D809008B5C37 /* main.m */; };
+		E488EBDE17D1D809008B5C37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E488EBDD17D1D809008B5C37 /* AppDelegate.m */; };
+		E488EBE017D1D809008B5C37 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E488EBDF17D1D809008B5C37 /* Default.png */; };
+		E488EBE217D1D809008B5C37 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E488EBE117D1D809008B5C37 /* Default@2x.png */; };
+		E488EBE417D1D809008B5C37 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E488EBE317D1D809008B5C37 /* Default-568h@2x.png */; };
+		E488EBE717D1D809008B5C37 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E488EBE617D1D809008B5C37 /* ViewController.m */; };
+		E488EBEA17D1D809008B5C37 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = E488EBE817D1D809008B5C37 /* ViewController_iPhone.xib */; };
+		E488EBED17D1D809008B5C37 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E488EBEB17D1D809008B5C37 /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E488EBCA17D1D809008B5C37 /* SOSOMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOSOMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E488EBCD17D1D809008B5C37 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E488EBCF17D1D809008B5C37 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E488EBD117D1D809008B5C37 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E488EBD517D1D809008B5C37 /* SOSOMap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SOSOMap-Info.plist"; sourceTree = "<group>"; };
+		E488EBD717D1D809008B5C37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E488EBD917D1D809008B5C37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E488EBDB17D1D809008B5C37 /* SOSOMap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SOSOMap-Prefix.pch"; sourceTree = "<group>"; };
+		E488EBDC17D1D809008B5C37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E488EBDD17D1D809008B5C37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E488EBDF17D1D809008B5C37 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E488EBE117D1D809008B5C37 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E488EBE317D1D809008B5C37 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E488EBE517D1D809008B5C37 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E488EBE617D1D809008B5C37 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E488EBE917D1D809008B5C37 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		E488EBEC17D1D809008B5C37 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E488EBC717D1D809008B5C37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E488EBCE17D1D809008B5C37 /* UIKit.framework in Frameworks */,
+				E488EBD017D1D809008B5C37 /* Foundation.framework in Frameworks */,
+				E488EBD217D1D809008B5C37 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E488EBC117D1D809008B5C37 = {
+			isa = PBXGroup;
+			children = (
+				E488EBD317D1D809008B5C37 /* SOSOMap */,
+				E488EBCC17D1D809008B5C37 /* Frameworks */,
+				E488EBCB17D1D809008B5C37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E488EBCB17D1D809008B5C37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E488EBCA17D1D809008B5C37 /* SOSOMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E488EBCC17D1D809008B5C37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E488EBCD17D1D809008B5C37 /* UIKit.framework */,
+				E488EBCF17D1D809008B5C37 /* Foundation.framework */,
+				E488EBD117D1D809008B5C37 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E488EBD317D1D809008B5C37 /* SOSOMap */ = {
+			isa = PBXGroup;
+			children = (
+				E488EBDC17D1D809008B5C37 /* AppDelegate.h */,
+				E488EBDD17D1D809008B5C37 /* AppDelegate.m */,
+				E488EBE517D1D809008B5C37 /* ViewController.h */,
+				E488EBE617D1D809008B5C37 /* ViewController.m */,
+				E488EBE817D1D809008B5C37 /* ViewController_iPhone.xib */,
+				E488EBEB17D1D809008B5C37 /* ViewController_iPad.xib */,
+				E488EBD417D1D809008B5C37 /* Supporting Files */,
+			);
+			path = SOSOMap;
+			sourceTree = "<group>";
+		};
+		E488EBD417D1D809008B5C37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E488EBD517D1D809008B5C37 /* SOSOMap-Info.plist */,
+				E488EBD617D1D809008B5C37 /* InfoPlist.strings */,
+				E488EBD917D1D809008B5C37 /* main.m */,
+				E488EBDB17D1D809008B5C37 /* SOSOMap-Prefix.pch */,
+				E488EBDF17D1D809008B5C37 /* Default.png */,
+				E488EBE117D1D809008B5C37 /* Default@2x.png */,
+				E488EBE317D1D809008B5C37 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E488EBC917D1D809008B5C37 /* SOSOMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E488EBF017D1D809008B5C37 /* Build configuration list for PBXNativeTarget "SOSOMap" */;
+			buildPhases = (
+				E488EBC617D1D809008B5C37 /* Sources */,
+				E488EBC717D1D809008B5C37 /* Frameworks */,
+				E488EBC817D1D809008B5C37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SOSOMap;
+			productName = SOSOMap;
+			productReference = E488EBCA17D1D809008B5C37 /* SOSOMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E488EBC217D1D809008B5C37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = yons;
+			};
+			buildConfigurationList = E488EBC517D1D809008B5C37 /* Build configuration list for PBXProject "SOSOMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E488EBC117D1D809008B5C37;
+			productRefGroup = E488EBCB17D1D809008B5C37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E488EBC917D1D809008B5C37 /* SOSOMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E488EBC817D1D809008B5C37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E488EBD817D1D809008B5C37 /* InfoPlist.strings in Resources */,
+				E488EBE017D1D809008B5C37 /* Default.png in Resources */,
+				E488EBE217D1D809008B5C37 /* Default@2x.png in Resources */,
+				E488EBE417D1D809008B5C37 /* Default-568h@2x.png in Resources */,
+				E488EBEA17D1D809008B5C37 /* ViewController_iPhone.xib in Resources */,
+				E488EBED17D1D809008B5C37 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E488EBC617D1D809008B5C37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E488EBDA17D1D809008B5C37 /* main.m in Sources */,
+				E488EBDE17D1D809008B5C37 /* AppDelegate.m in Sources */,
+				E488EBE717D1D809008B5C37 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E488EBD617D1D809008B5C37 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E488EBD717D1D809008B5C37 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E488EBE817D1D809008B5C37 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E488EBE917D1D809008B5C37 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		E488EBEB17D1D809008B5C37 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E488EBEC17D1D809008B5C37 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E488EBEE17D1D809008B5C37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E488EBEF17D1D809008B5C37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E488EBF117D1D809008B5C37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SOSOMap/SOSOMap-Prefix.pch";
+				INFOPLIST_FILE = "SOSOMap/SOSOMap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E488EBF217D1D809008B5C37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SOSOMap/SOSOMap-Prefix.pch";
+				INFOPLIST_FILE = "SOSOMap/SOSOMap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E488EBC517D1D809008B5C37 /* Build configuration list for PBXProject "SOSOMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E488EBEE17D1D809008B5C37 /* Debug */,
+				E488EBEF17D1D809008B5C37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E488EBF017D1D809008B5C37 /* Build configuration list for PBXNativeTarget "SOSOMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E488EBF117D1D809008B5C37 /* Debug */,
+				E488EBF217D1D809008B5C37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E488EBC217D1D809008B5C37 /* Project object */;
+}
