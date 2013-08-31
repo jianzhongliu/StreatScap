@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "QAppKeyCheck.h"
+#import "QStreetView.h"
+#import "QReverseGeocoder.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<QAppKeyCheckDelegate, QStreetViewDelegate, QReverseGeocoderDelegate>
+
+@property(nonatomic, retain) QAppKeyCheck* appKeyCheck;
+@property(nonatomic, retain) QStreetView* streetView;
+@property(nonatomic, retain) QReverseGeocoder* reverseGeocoder;
 
 @end
